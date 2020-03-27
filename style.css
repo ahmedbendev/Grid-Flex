@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* header style  */
+.imgbc{
+    background: url(./images/coffee-shop-10.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: -314px -422px;
+    background-size: 1863px 1494.5px;
+}
+a{
+    color: #262626;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+.menu li{
+    font-weight: bold;
+    color: #333333;
+    padding: 0 20px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.menu li a:hover{
+    color:#DCA47D;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 8px 40px;
+    background: #333333;
+    color: white;
+    font-size: 32px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+.btn a{
+    color: white;
+    font-family: monospace;
+}
+.btn:hover{
+    /* opacity: 0.9; */
+    background: #DCA47D;
+}
+.bigtitle{
+    color: #333333;
+    font-size: 50px;
+    font-family: monospace;
+}
+.paratitle p{
+    color: #666666;
+    font-size: 20px;
+    margin-top: 27px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.showcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    width: 100%;
+    height: 400px;
+}
+/* header style  */
+
+
+/* container style  */
+.container{
+    background-color: #272830;
+}
+.smalltitle{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 30px 30px 90px 30px;
+    font-size: 37px;
+}
+.galerie{
+    padding: 0px 180px 70px 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 165px;
+    grid-row-gap:70px ;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+}
+.galerieitemimg img{
+    width: 100%;
+}
+.galerieitem h2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: monospace;
+    padding-top: 20px;
+}
+.galerieitem p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 12px;
+    text-transform: capitalize;
+}
+.btndetail{
+    cursor: pointer;
+    display: block;
+    border: 0;
+    font-weight: bold;
+    padding: 8px 17px;
+    background: #DCA47D;
+    color: #272830;
+    font-size: 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    text-align: center;
+    /* margin-left: 53px; */
+}
+.btndetail:hover{
+    background: white;
+}
+.btndetail a{
+    color: #272830;
+}
+/* container style  */
