@@ -161,3 +161,126 @@ ul{
     color: #272830;
 }
 /* container style  */
+
+/* wrapper imgaesfooter style  */
+.wrapper{
+    display: flex;
+
+}
+.wrapperitem{
+    flex: 20%;
+    max-width: 20%;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* wrapper imgaesfooter style  */
+
+/* footer style  */
+.footer{
+    background-color: black;
+    color: white;
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 350px 50px;
+    grid-template-areas: 'news cont'  
+                         'copdr copdr';                            ;
+}
+
+.copr{
+    grid-area: copdr;
+    text-align: center;
+    align-items: center;
+}
+.newsletter{
+    grid-area: news;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.contactside{
+    grid-area: cont;
+    padding-top: 30px;
+}
+.contt{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 35px;
+    }
+.newst{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 35px;
+    }    
+.firtit {
+        color: #DCA47D;
+        font-family: monospace;
+        font-size: 28px;
+        }
+.sectit {
+            font-size: 20px;
+            }        
+#newsfname {
+        cursor: pointer;
+        height: 52px;
+        width: 400px;
+        border-radius: 12px;
+        border-color: white;
+        border-style: unset;
+        margin-left: 50px;
+        }            
+.inputst{
+            color: #958585;
+            font-size: 23px;
+            padding-left: 18px;
+        }        
+#newssfname {
+    cursor: pointer;
+    height: 52px;
+    width: 200px;
+    border-radius: 12px;
+    border-style: unset;
+    background: #DCA47D;
+    margin-left: 50px;
+    
+            }
+.newsinput{
+color: black;
+font-size: 21px;
+text-align: center;
+font-family: monospace;
+}  
+.formnews{
+    margin-top: 50px;
+}
+.smc {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 50px;
+    }
+.soctit {
+        padding-right: 55px;
+        }
+.iconsoc {
+            padding-right: 40px;
+            height: 40px;
+            }        
+.copyrtit{
+                text-align: center;
+                font-family: monospace;
+            font-size: 24px;
+            text-transform: uppercase;
+            }            
+#newssfname:hover{
+
+            background: white;
+            }                   
+.bigttcopy {color: #DCA47D;}           
+.bigttcopy a{color: #DCA47D;}
