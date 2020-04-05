@@ -291,6 +291,102 @@ font-family: monospace;
 }
 
 
+
+/* --------------------------------- shop page style ------------------------------------ */
+.bigtitleshop{
+    color: #333333;
+    font-size: 80px;
+    font-family: monospace;
+}
+.paratitleshop p{
+    color: #666666;
+    font-size: 20px;
+    margin-top: 27px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.showcaseshop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    width: 100%;
+    height: 400px;
+}
+.smalltitleshop{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 30px 30px 60px 30px;
+    font-size: 45px;
+}
+.galerieshop {
+    padding: 0px 180px 0px 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 165px;
+    grid-row-gap: 70px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+}
+.priceitem{
+    color: #DCA47D;
+}
+.galerieitemimgshop img {
+    width: 100%;
+    /* border-color: white; */
+    border-style: solid;
+    /* border: 6px; */
+    border: 6px solid white;
+    border-radius: 6px;
+}
+.starsshop {
+    display: flex;
+    justify-content: center;
+}
+.price{
+    display: flex;
+    justify-content: center;
+}
+.pagenum {
+    display: flex;
+    justify-content: center;
+}
+.page {
+    font-size: 60px;
+    color: #DCA47D;
+    padding: 15px;
+    font-family: monospace;
+}
+.pageon {
+    font-size: 60px;
+    color: white;
+    padding: 15px;
+    font-family: monospace;
+}
+.page a{
+    font-size: 60px;
+    color: #DCA47D;
+    padding: 15px;
+    font-family: monospace;
+}
+.pageon a{
+    font-size: 60px;
+    color: white;
+    padding: 15px;
+    font-family: monospace;
+}
+/* --------------------------------- shop page style ------------------------------------ */
+
+
+
+
+
+
+
+
 /* responsive */
 
 /* Extra small devices (phones, 600px and down) */
@@ -353,6 +449,18 @@ font-family: monospace;
         padding-top: 17px;
         padding-bottom: 17px;
     }
+    /* --------- shop resposive ---------- */    
+    .bigtitleshop {
+        font-size: 50px;
+    }
+    .paratitleshop p{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .galerieshop {
+        padding: 0px 40px 30px 40px;
+        grid-template-columns: 1fr;
+    }
 } 
 
 /* Extra small devices (phones, 600px and down) */
@@ -392,6 +500,15 @@ font-family: monospace;
         margin-left: 0px;
         flex-flow: column;
     }
+    /* --------- shop resposive ---------- */  
+    .bigtitleshop {
+        font-size: 50px;
+    }
+    .galerieshop {
+        padding: 0px 80px 70px 80px;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 96px;
+    }
     
 } 
 
@@ -427,11 +544,22 @@ font-family: monospace;
         margin-left: 0px;
         flex-flow: column;
     }
+    /* --------- shop resposive ---------- */  
+    .galerieshop {
+        padding: 0px 80px 70px 80px;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 96px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 868px) and (max-width: 992px){
     .galerie {
+        padding: 0px 140px 70px 140px;
+        grid-template-columns: 1fr 1fr;
+    }
+    /* --------- shop resposive ---------- */  
+    .galerieshop {
         padding: 0px 140px 70px 140px;
         grid-template-columns: 1fr 1fr;
     }
@@ -443,8 +571,15 @@ font-family: monospace;
         padding: 0px 110px 70px 110px;
         grid-column-gap: 122px;
     }
+    /* --------- shop resposive ---------- */  
+    .galerieshop {
+        padding: 0px 110px 70px 110px;
+        grid-column-gap: 122px;
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1300px) {
 } 
+
+
