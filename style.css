@@ -382,6 +382,261 @@ font-family: monospace;
 
 
 
+/* --------------------------------- shop item detils page style ------------------------------------ */
+.galerieitemdetail{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: start;
+    padding: 0px 150px 0px 150px;
+}
+.galerieitemimgshopdetail {
+    width: 100%;
+    padding-right: 50px;
+}
+.galerieitemimgshopdetail img{
+    width: 100%;
+    border-style: solid;
+    border: 6px solid white;
+    border-radius: 6px
+}
+.titiledetial{
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 10px 0px 10px 0px;
+    font-size: 25px;
+}
+.starsshopdetail {
+    padding-bottom: 10px;
+}
+.pricedetail {
+    padding-bottom: 10px;
+}
+.priceitemdetail{
+    color: #DCA47D;
+    font-size: 40px;
+}
+p.pitemdetail {
+    color: white;
+    font-size: 17px;
+}
+.btndetaildetail {
+    cursor: pointer;
+    display: inline-flex;
+    border: 0;
+    font-weight: bold;
+    padding: 8px 17px;
+    background: #DCA47D;
+    color: #272830;
+    font-size: 25px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    text-align: center;
+    /* margin-left: 53px; */
+}
+.btndetaildetail:hover{
+    background: white;
+}
+.btndetaildetail a{
+    color: #272830;
+}
+.smalltitlerelated{
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 40px 150px 40px 150px;
+    font-size: 37px;
+}
+.galerieitemdetailrelated {
+    padding-bottom: 80px;
+}
+
+
+/* --------------------------------- shop item detils page style ------------------------------------ */
+
+
+/* --------------------------------- coffee type detils page style ------------------------------------ */
+.headtab {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.intro {
+    flex: 40%;
+}
+.needs {
+    flex: 30%;
+}
+.time {
+    flex: 30%;
+}
+.titletab{
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 28px;
+    font-weight: bold;
+}
+.bodytab {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.titlesectab{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    padding: 20px 40px 0px 160px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+.titlesectabp{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px 40px 0px 160px;
+    letter-spacing: 0px;
+    font-family: monospace;
+    text-indent: 50px;
+}
+.tabcoff {
+    padding-bottom: 20px;
+}
+.smalltitlestep{
+    text-align: center;
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 30px 30px 90px 30px;
+    font-size: 37px;
+}
+.steps {
+    margin: 0px 170px 0px 170px;
+}
+.step1 {
+    display: flex;
+    padding-bottom: 70px;
+}
+.step1pic{
+    width: 40%;
+    order: 2;
+}
+.step1disc{
+    width: 60%;
+    order: 1;
+}
+.step1pic img{
+    width: 100%;
+    border-style: solid;
+    border: 6px solid white;
+    border-radius: 6px;
+}
+.step1tit {
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 0px 0px 30px 30px;
+    font-size: 37px;
+}
+.step1p{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px 100px 0px 66px;
+    letter-spacing: 0px;
+    font-family: monospace;
+    text-indent: 50px;
+}
+.step2 {
+    display: flex;
+    padding-bottom: 70px;
+}
+.step2pic{
+    width: 40%;
+    order: 1;
+}
+.step2disc{
+    width: 60%;
+    order: 2;
+}
+.step2pic img{
+    width: 100%;
+    border-style: solid;
+    border: 6px solid white;
+    border-radius: 6px;
+}
+.step2tit {
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 0px 0px 30px 100px;
+    font-size: 37px;
+}
+.step2p{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px 100px 0px 66px;
+    letter-spacing: 0px;
+    font-family: monospace;
+    text-indent: 50px;
+}
+.step3 {
+    display: flex;
+    padding-bottom: 70px;
+}
+.step3pic{
+    width: 40%;
+    order: 2;
+}
+.step3disc{
+    width: 60%;
+    order: 1;
+}
+.step3pic img{
+    width: 100%;
+    border-style: solid;
+    border: 6px solid white;
+    border-radius: 6px;
+}
+.step3tit {
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 0px 0px 30px 30px;
+    font-size: 37px;
+}
+.step3p{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px 100px 0px 66px;
+    letter-spacing: 0px;
+    font-family: monospace;
+    text-indent: 50px;
+}
+.enjoytit {
+    text-align: center;
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 0px 0px 40px 0px;
+    font-size: 55px;
+}
+/* --------------------------------- coffee type detils page style ------------------------------------ */
+
+
+
+
+
+
+
 
 
 
@@ -456,6 +711,8 @@ font-family: monospace;
     .paratitleshop p{
         font-size: 18px;
         margin-top: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .galerieshop {
         padding: 0px 40px 30px 40px;
