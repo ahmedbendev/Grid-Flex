@@ -631,12 +631,260 @@ p.pitemdetail {
 }
 /* --------------------------------- coffee type detils page style ------------------------------------ */
 
+/* --------------------------------- about us page style ------------------------------------ */
+.headerau{
+    display: flex;
+    padding: 0px 170px 60px 170px;
+    text-align: center;
+}
+.firsticn{
+    width: 33%;
+}
+.firsticn img{
+    width: 24%;
+}
+.titlehicn1{
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 32px;
+    padding-top: 10px;
+}
+.titlebicn1{
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.secendicn{
+    width: 33%;
+}
+.secendicn img{
+    width: 24%;
+}
+.titlehicn2{
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 32px;
+    padding-top: 10px;
+}
+.titlebicn2{
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.therdicn{
+    width: 33%;
+}
+.therdicn img{
+    width: 24%;
+}
+.titlehicn3{
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 32px;
+    padding-top: 10px;
+}
+.titlebicn3{
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 23px;
+    padding-top: 20px;
+}
+.ourstory {
+    padding-bottom: 20px;
+}
+.ourstorytit {
+    text-align: center;
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 0px 0px 40px 0px;
+    font-size: 55px;
+}
+.paraourstory {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 200px 40px 200px;
+    letter-spacing: 0px;
+    font-family: monospace;
+    text-indent: 60px;
+    line-height: 40px;
+}
+.aboutmetit{
+    text-align: center;
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 0px 0px 40px 0px;
+    font-size: 55px;
+}
+.aboutme{
+    display: flex;
+    padding: 10px 200px 80px 200px;
+}
+.aboutmepicside {
+    width: 40%;
+}
+.aboutmepicside img{
+    width: 100%;
+    border-style: solid;
+    border: 6px solid white;
+    border-radius: 6px;
+}
+.aboutmedescside {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 30px 60px;
+}
+.aboutmedescsideh1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 54px;
+}
+.aboutmedescsideh2 {
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 31px;
+    padding-bottom: 25px;
+}
+.aboutmedescsidep {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0px;
+    font-family: monospace;
+    text-indent: 50px;
+    line-height: 38px;
+}
+
+
+/* --------------------------------- about us page style ------------------------------------ */
 
 
 
+/* --------------------------------- contact us page style ------------------------------------ */
+
+form#reused_form {
+    padding: 0px 270px 70px 271px;
+}
+.form_name {
+    display: flex;
+    padding-bottom: 40px;
+}
+.label_name {
+    width: 25%;
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 35px;
+}
+.form_control_name {
+    width: 40%;
+    font-size: 25px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.form_control_name::placeholder {
+    color: #958585;
+    font-size: 23px;
+    padding-left: 22px;
+    border-radius: 20px;
+  }
+
+.form_email {
+    display: flex;
+    padding-bottom: 40px;
+}
+.label_email {
+    width: 25%;
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 35px;
+}
+.form_control_email {
+    width: 40%;
+    font-size: 25px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.form_control_email::placeholder {
+    color: #958585;
+    font-size: 23px;
+    padding-left: 22px;
+  }  
+
+.form_messege {
+    display: flex;
+    align-items: center;
+}
+.label_message {
+    width: 25%;
+    color: #DCA47D;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 35px;
+}
+.form_control_messege {
+    width: 70%;
+    height: 250px;
+    font-size: 25px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.form_control_messege::placeholder {
+    color: #958585;
+    font-size: 23px;
+    padding-left: 22px;
+    padding-top: 15px;
+  }    
+  .form_button {
+    display: flex;
+    align-items: center;
+}
+.emptyfb{
+    width: 25%;
+}
 
 
 
+  .btnsendmsg {
+    cursor: pointer;
+    display: block;
+    border: 0;
+    font-weight: bold;
+    padding: 17px 30px;
+    background: #DCA47D;
+    color: #272830;
+    font-size: 28px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    text-align: center;
+}  
+.btnsendmsg:hover{
+    background: white;
+}
+.btnsendmsg a{
+    color: #272830;
+}
+/* --------------------------------- contact us page style ------------------------------------ */
 
 
 
